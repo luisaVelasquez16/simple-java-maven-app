@@ -20,7 +20,7 @@ job('Java Maven App DSL 3') {
         }
         shell('''
           echo "Entrega: Desplegando la aplicación" 
-          java -jar "/home/luisa/workspace/java app con maven/target//my-app-1.0-SNAPSHOT.jar"
+          java -jar "/home/luisa/workspace/java app con maven/target/my-app-1.0-SNAPSHOT.jar"
         ''')  
     }
     publishers {
